@@ -1,3 +1,6 @@
 [submodule "base16-shell/.config/base16-shell"]
 	path = base16-shell/.config/base16-shell
 	url = https://github.com/jacobpa/base16-shell
+[submodule "kitty/.config/kitty/base16-kitty"]
+	path = kitty/.config/kitty/base16-kitty
+	url = https://github.com/kdrag0n/base16-kitty
