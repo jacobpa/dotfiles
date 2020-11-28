@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Jacob Patterson
+	email = jacob@jacobpa.com
+	signingkey = 44DA350F
+[alias]
+	st = status
+	ci = commit
+	pu = push
+	co = checkout
+	lg = log
+	df = diff
