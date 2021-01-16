@@ -36,8 +36,6 @@ Plug 'vimwiki/vimwiki'
 Plug 'chriskempson/base16-vim'
 
 Plug 'vim-airline/vim-airline'
-Plug 'Shougo/unite.vim'
-Plug 'Shougo/vimfiler'
 call plug#end()
 
 " Following requires using base16-shell
