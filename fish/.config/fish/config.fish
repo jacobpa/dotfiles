@@ -5,7 +5,7 @@ if status --is-interactive
     source "$BASE16_SHELL/profile_helper.fish"
 
     set BASE16_KITTY "$HOME/.config/kitty/base16-kitty/"
-    if test -n "$BASE16_THEME" -a -d "$BASE16_KITTY/colors"
+    if test -n "$BASE16_THEME" -a -d "$BASE16_KITTY/colors" -a $TERM = "xterm-kitty"
         kitty @set-colors $BASE16_KITTY/colors/base16-$BASE16_THEME-256.conf
     end
 end
