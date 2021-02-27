@@ -35,6 +35,9 @@ Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
 Plug '907th/vim-auto-save'
 Plug 'jamessan/vim-gnupg'
+Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/vim-peekaboo'
+Plug 'junegunn/gv.vim'
 call plug#end()
 
 " Following requires using base16-shell
