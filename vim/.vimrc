@@ -34,6 +34,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
 Plug '907th/vim-auto-save'
+Plug 'jamessan/vim-gnupg'
 call plug#end()
 
 " Following requires using base16-shell
